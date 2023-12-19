@@ -6,11 +6,67 @@
     <title>SwitchToLinux</title>
     <meta name="title" content="SwitchToLinux — switch to linux with ease" />
     <meta name="description" content="your guide to switch into Linux " />
-    <script src="https://cdn.tailwindcss.com"></script>
-
+   <link rel="stylesheet" href="static/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+</head>
 </head>
 <body>
-    <h1 class="w-full flex justify-center text-2xl">SwitchToLinux</h1>
-    <div class="flex justify-center mt-5"><img src="static/linuxpenguin.png" alt="" class="w-[200px]" ></div>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary d-flex justify-content-between "  data-bs-theme="dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="static/linuxpenguin.png" alt="" style="width: 40px;">SwitchToLinux</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        
+          <div class="collapse navbar-collapse mx-5 " id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">about</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">source</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Guides
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">what and why linux?</a></li>
+                  <li><a class="dropdown-item" href="#">Folder strucutre</a></li>
+                  <li><a class="dropdown-item" href="#">linux gnu</a></li>
+                  <li><a class="dropdown-item" href="#">linux distros</a></li>
+                  <li><a class="dropdown-item" href="#">choose your distro</a></li>
+                  <li><a class="dropdown-item" href="#">Desktop enviroments</a></li>
+                  <li><a class="dropdown-item" href="#">Package managers</a></li>
+                  <li><a class="dropdown-item" href="#">basic commands</a></li>
+
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <main class="d-flex flex-column">
+        <div class="alert alert-info d-flex align-items-center gap-2" role="alert">
+            SwitchToLinux is still under development!
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+          </div>
+          <div class="d-flex flex-column gap-3 justify-content-center align-items-center hero">
+            <img src="static/linuxpenguin.png" alt="" class="hero-img">
+            <h1>SwitchToLinux</h1>
+            <p class="hero-text-small">Your roadmap to switch into Linux</p>
+            <a href=""><button class="btn btn-outline-primary">start learning ></button></a>
+          </div>
+          
+          <article class="mt-20 d-flex align-items-center flex-column">
+            <h2>what the heck is linux?</h2>
+             <p></p>
+          </article>
+      </main>
+      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 </body>
 </html>
