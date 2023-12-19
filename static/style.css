@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    margin-top: 10vh;
+    height: 50vh;
+}
+.hero-img{
+    width: 300px;
+}
+.hero-text-small{
+    font-family: monospace;
+}
+
+/* utilites */
+.mt-5{
+    margin-top: 5vh;
+}
+.mt-10{
+    margin-top: 10vh;
+}
+
+.mt-20{
+    margin-top: 20vh;
+}
+
+.styled-paragraph{
+    max-width: 700px;
+    
+}
