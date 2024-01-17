@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SwitchToLinux</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/output.css">
+
+</head>
+
+<body>
+    <header
+        class="text-slate-700 container relative mx-auto flex flex-col overflow-hidden px-4 py-4 lg:flex-row lg:items-center">
+        <a href="#" class="flex items-center whitespace-nowrap text-2xl font-black">
+            <span class="mr-2 w-8">
+                <img src="./public/linuxpenguin.png" alt="" />
+            </span>
+
+        </a>
+        <input type="checkbox" class="peer hidden" id="navbar-open" />
+        <label class="absolute top-5 right-5 cursor-pointer lg:hidden" for="navbar-open">
+            <svg class="h-7 w-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16">
+                </path>
+            </svg>
+        </label>
+        <nav aria-label="Header Navigation"
+            class="peer-checked:pt-8 peer-checked:max-h-60 flex max-h-0 w-full flex-col items-center overflow-hidden transition-all lg:ml-24 lg:max-h-full lg:flex-row">
+            <ul class="flex w-full flex-col items-center space-y-2 lg:flex-row lg:justify-center lg:space-y-0">
+                <li class="lg:mr-12"><a
+                        class="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
+                        href="#">Why linux?</a></li>
+                <li class="lg:mr-12"><a
+                        class="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
+                        href="#">about</a></li>
+                <li class="lg:mr-12"><a
+                        class="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
+                        href="#">guides</a></li>
+                <li class="lg:mr-12"><a
+                        class="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
+                        href="#">FAQ</a></li>
+            </ul>
+            <hr class="mt-4 w-full lg:hidden" />
+            <div class="my-4 flex items-center space-x-6 space-y-2 lg:my-0 lg:ml-auto lg:space-x-8 lg:space-y-0">
+
+                <a href="#" title=""
+                    class="whitespace-nowrap rounded-xl bg-blue-700 px-5 py-3 font-medium text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 hover:bg-blue-600">Start
+                    Learning</a>
+            </div>
+        </nav>
+    </header>
+
+    <div class="bg-blue-100 border-t border-b border-blue-500 text-blue-700 px-4 py-3" role="alert">
+        <p class="font-bold">Hey windows user!</p>
+        <p class="text-sm">SwitchToLinux is still in development , some features or pages might not work</p>
+    </div>
+    <section class="mx-auto py-16">
+        <div
+            class="mx-auto flex w-full flex-col items-center justify-center sm:max-w-screen-sm md:max-w-screen-md lg:flex-row">
+            <div class="text-center">
+
+                <div class=" w-[300px]"><img src="./public/linuxpenguin.png" alt=""></div>
+                <h2 class="bg-clip-text text-3xl font-extrabold text-gray-700 sm:text-5xl mt-5">SwitchToLinux</h2>
+                <p>Your roadmap to switch into Linux</p>
+                <a href="#"
+                    class="mt-10 inline-flex h-12 items-center rounded-[12px] bg-blue-700 px-6 py-3 text-xl font-light text-white shadow-md transition hover:translate-y-1 hover:scale-105 hover:shadow-lg">Explore
+                    linux</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex flex-col gap-4">
+        <div class="mx-auto my-10 max-w-lg px-4 text-gray-600 md:max-w-screen-lg">
+            <div class="mb-10 flex flex-col border-t-4 border-blue-600 pt-4 md:flex-row">
+                <h2 class="mr-auto mb-4 text-4xl font-medium lg:text-3xl">what the heck is Linux?</h2>
+                <a href="#" class="text-lg font-medium underline hover:text-blue-600">explore guides</a>
+            </div>
+            <div class="flex flex-col md:flex-row">
+                <div>
+                    <p class="mb-4 md:pr-10 md:text-xl md:leading-relaxed lg:pr-28">Linux is an open-source, Unix-like
+                        operating system kernel first created by Linus Torvalds in 1991.</p>
+                    <p class="md:pr-10 md:text-xl md:leading-relaxed lg:pr-28">Linux is known for its security and
+                        versatility. It is widely used in server environments for web hosting, networking, and other
+                        applications.
+                        Linux is also widely used as an operating system for desktops or personal computers.</p>
+                </div>
+                <p class="hidden uppercase md:block md:text-7xl">
+
+                    <span class="whitespace-nowrap text-blue-600">{ }</span>
+                </p>
+            </div>
+        </div>
+        <div class="mx-auto my-10 max-w-lg px-4 text-gray-600 md:max-w-screen-lg">
+            <div class="mb-10 flex flex-col border-t-4 border-blue-600 pt-4 md:flex-row">
+                <h2 class="mr-auto mb-4 text-4xl font-medium lg:text-3xl">Why should you use linux ?
+                </h2>
+                <a href="#" class="text-lg font-medium underline hover:text-blue-600">explore guides</a>
+            </div>
+            <div class="flex flex-col md:flex-row">
+                <div>
+                    <p class="mb-4 md:pr-10 md:text-xl md:leading-relaxed lg:pr-28">Linux is open-source, which means
+                        that its source code is freely available, promoting transparency, collaboration, and a sense of
+                        community-driven development.
+                        This openness contributes to system security by allowing issues to be identified and addressed
+                        quickly by the global community.
+                    </p>
+                    <p class="md:pr-10 md:text-xl md:leading-relaxed lg:pr-28">Linux allows you to customise your
+                        expericence on the desktop, you can modify whatever you wish to and yes No forced updates and
+                        blue screens and
+                        yeah its comes with the powerful terminal - rumour has it that it gives you superpowers!</p>
+                </div>
+                <p class="hidden uppercase md:block md:text-7xl">
+
+                    <span class="whitespace-nowrap text-blue-600">{ }</span>
+                </p>
+            </div>
+        </div>
+
+    </section>
+
+    <section
+        class="mx-auto my-10 flex max-w-xl flex-col rounded-3xl border-blue-300 px-4 py-10 text-gray-700 sm:border-8 sm:px-10 lg:max-w-screen-lg lg:flex-row">
+        <div class="mr-2">
+            <h2 class="mb-4 text-4xl font-medium">What is <span class="text-blue-600">SwitchToLinux</span>?</h2>
+            <p class="mb-6">SwitchToLinux is a open-source project that helps your transition into linux ecosystem, we
+                protect you from neckbeards.Help you with everything from choosing your disto,to installation to
+                understanding everything about your os</p>
+            <div class="mb-4 space-y-4">
+                <div class="flex space-x-2">
+                    <span class="text-blue-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 01-.657.643 48.39 48.39 0 01-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 01-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 00-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 01-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 00.657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 01-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0c0 .333.277.599.61.58a48.1 48.1 0 005.427-.63 48.05 48.05 0 00.582-4.717.532.532 0 00-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.96.401v0a.656.656 0 00.658-.663 48.422 48.422 0 00-.37-5.36c-1.886.342-3.81.574-5.766.689a.578.578 0 01-.61-.58v0z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span class="font-medium">Smooth transition</span>
+                </div>
+                <div class="flex space-x-2">
+                    <span class="text-blue-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 01-.657.643 48.39 48.39 0 01-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 01-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 00-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 01-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 00.657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 01-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0c0 .333.277.599.61.58a48.1 48.1 0 005.427-.63 48.05 48.05 0 00.582-4.717.532.532 0 00-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.96.401v0a.656.656 0 00.658-.663 48.422 48.422 0 00-.37-5.36c-1.886.342-3.81.574-5.766.689a.578.578 0 01-.61-.58v0z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span class="font-medium">open-source community</span>
+                </div>
+                <div class="flex space-x-2">
+                    <span class="text-blue-400">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor" class="h-6 w-6">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M14.25 6.087c0-.355.186-.676.401-.959.221-.29.349-.634.349-1.003 0-1.036-1.007-1.875-2.25-1.875s-2.25.84-2.25 1.875c0 .369.128.713.349 1.003.215.283.401.604.401.959v0a.64.64 0 01-.657.643 48.39 48.39 0 01-4.163-.3c.186 1.613.293 3.25.315 4.907a.656.656 0 01-.658.663v0c-.355 0-.676-.186-.959-.401a1.647 1.647 0 00-1.003-.349c-1.036 0-1.875 1.007-1.875 2.25s.84 2.25 1.875 2.25c.369 0 .713-.128 1.003-.349.283-.215.604-.401.959-.401v0c.31 0 .555.26.532.57a48.039 48.039 0 01-.642 5.056c1.518.19 3.058.309 4.616.354a.64.64 0 00.657-.643v0c0-.355-.186-.676-.401-.959a1.647 1.647 0 01-.349-1.003c0-1.035 1.008-1.875 2.25-1.875 1.243 0 2.25.84 2.25 1.875 0 .369-.128.713-.349 1.003-.215.283-.4.604-.4.959v0c0 .333.277.599.61.58a48.1 48.1 0 005.427-.63 48.05 48.05 0 00.582-4.717.532.532 0 00-.533-.57v0c-.355 0-.676.186-.959.401-.29.221-.634.349-1.003.349-1.035 0-1.875-1.007-1.875-2.25s.84-2.25 1.875-2.25c.37 0 .713.128 1.003.349.283.215.604.401.96.401v0a.656.656 0 00.658-.663 48.422 48.422 0 00-.37-5.36c-1.886.342-3.81.574-5.766.689a.578.578 0 01-.61-.58v0z">
+                            </path>
+                        </svg>
+                    </span>
+                    <span class="font-medium">guides on everything</span>
+                </div>
+
+            </div>
+            <div class="text-gray-400"><a href="#"
+                    class="my-10 inline-flex cursor-pointer items-center rounded-full  bg-blue-700 border-4 h-12 hover:translate-y-1 hover:shadow-lg hover:scale-105 shadow-md transition border-white  text-white py-3 font-b px-6 font-sans text-xl ">Start
+                    Learning</a> </div>
+        </div>
+        <div class="h-96">
+            <img class="h-full w-full object-contain" src="./public/guylearning.jpeg" alt="" />
+        </div>
+    </section>
+    <footer class="">
+        <div
+            class="mx-auto grid max-w-screen-xl gap-y-8 gap-x-12 px-4 py-10 sm:px-20 md:grid-cols-2 xl:grid-cols-4 xl:px-10">
+            <div class="max-w-sm">
+                <div class="mb-6 flex h-10 items-center space-x-2">
+                    <img class="h-full object-contain" src="/images/logo-circle.png" alt="" />
+                    <span class="text-lg font-medium">SwitchToLinux</span>
+                </div>
+                <div class="text-gray-500">your sign to switch to linux</div>
+            </div>
+            <div class="">
+                <div class="mt-4 mb-2 font-medium xl:mb-4">Guides</div>
+                <nav aria-label="Guides Navigation" class="text-gray-500">
+                    <ul class="space-y-3">
+                        <li><a class="hover:text-blue-600 hover:underline" href="#">How to make a footer</a></li>
+                        <li><a class="hover:text-blue-600 hover:underline" href="#">Designing your app</a></li>
+                        <li><a class="hover:text-blue-600 hover:underline" href="#">Getting help from the community</a>
+                        </li>
+                        <li><a class="hover:text-blue-600 hover:underline" href="#">Pricing vs Hourly Rate</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="">
+                <div class="mt-4 mb-2 font-medium xl:mb-4">Links</div>
+                <nav aria-label="Footer Navigation" class="text-gray-500">
+                    <ul class="space-y-3">
+                        <li><a class="hover:text-blue-600 hover:underline" href="#">Pricing</a></li>
+                        <li><a class="hover:text-blue-600 hover:underline" href="#">Demo</a></li>
+                        <li><a class="hover:text-blue-600 hover:underline" href="#">Press</a></li>
+                        <li><a class="hover:text-blue-600 hover:underline" href="#">Support Hub</a></li>
+                        <li><a class="hover:text-blue-600 hover:underline" href="#">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="">
+                <div class="mt-4 mb-2 font-medium xl:mb-4">Star ⭐ us on github</div>
+                <div class="flex flex-col ">
+                    <a href="https://github.com/anshumancodes/SwitchToLinux">
+                        <div class="mb-4 flex gap-2 items-center rounded-sm w-28 h-8">
+                            <svg xmlns="http://www.w3.org/2000/svg" height="30" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z" />
+                            </svg>
+                            github
+    
+    
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="border-t">
+            <div
+                class="mx-auto flex max-w-screen-xl flex-col gap-y-4 px-4 py-3 text-center text-gray-500 sm:px-20 lg:flex-row lg:justify-between lg:text-left xl:px-10">
+                <p class="">© 2024| All Rights Reserved</p>
+                <p class="-order-1 sm:order-none">Made with ❤️ by <a
+                        href="https://github.com/anshumancodes/">thelazymonkee</a></p>
+                <p class="">
+                    <a class="" href="#">Privacy Policy</a>
+                    <span>|</span>
+                    <a class="" href="#">Terms of Service</a>
+                </p>
+            </div>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>
