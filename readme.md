@@ -23,11 +23,11 @@ we have used tailwind to style the components and the overall website.So if you 
 ## Contributing to the project
 
 
-Read ```bash contribution.md ``` to understand about guidelines around Contribution
+Read ```contribution.md ``` to understand about guidelines around Contribution
 
 
 
 
-## :heart: for tailwind components
+### :heart: for tailwind components
 
 [Componentland](https://componentland.com/)
