@@ -1,9 +1,9 @@
-# SwitchToLinux
+## SwitchToLinux
 
 SwitchToLinux is an open-source project designed to assist people in transitioning smoothly to Linux with our guides.
 
 
-## clone it 
+### clone it 
 ```bash
 
 git clone https://github.com/anshumancodes/SwitchToLinux.git
@@ -14,13 +14,13 @@ npm i
 
 
 ```
-## things you need to know
+### things you need to know
 
 we have used tailwind to style the components and the overall website.So if you are new to tailwind or dont know about it :
 
 [Tailwind CSS](https://tailwindcss.com/)
 
-## Contributing to the project
+### Contributing to the project
 
 
 Read ```contribution.md ``` to understand about guidelines around Contribution
