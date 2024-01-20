@@ -1,20 +1,24 @@
 
 
 // for faq section
-document.addEventListener('DOMContentLoaded', function () {
-    const faqItems = document.querySelectorAll('.faq');
-
-    faqItems.forEach(item => {
-        item.addEventListener('click', () => {
-            const answer = item.nextElementSibling;
-
-            if (answer.classList.contains('hidden')) {
-                answer.classList.remove('hidden');
-            } else {
-                answer.classList.add('hidden');
-            }
-        });
-    });
-});
-
+function openAnsSection(val) {
+    var p = document.getElementById("para" + val);
+    var svg = document.getElementById("path" + val);
+  
+    if (p.classList.contains("hidden")) {
+      p.classList.remove("hidden");
+      p.classList.add("block");
+    } else {
+      p.classList.remove("block");
+      p.classList.add("hidden");
+    }
+  
+    if (svg.classList.contains("hidden")) {
+      svg.classList.remove("hidden");
+      svg.classList.add("block");
+    } else {
+      svg.classList.remove("block");
+      svg.classList.add("hidden");
+    }
+  }
 console.log("js is working");

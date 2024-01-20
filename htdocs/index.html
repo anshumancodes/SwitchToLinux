@@ -11,10 +11,10 @@
 
 </head>
 
-<body>
+<body class="scroll-smooth">
     <header
         class="text-slate-700 container relative mx-auto flex flex-col overflow-hidden px-4 py-4 lg:flex-row lg:items-center">
-        <a href="#" class="flex items-center whitespace-nowrap text-2xl font-black">
+        <a href="#whatisswitchtolinux" class="flex items-center whitespace-nowrap text-2xl font-black">
             <span class="mr-2 w-8">
                 <img src="./public/linuxpenguin.png" alt="" />
             </span>
@@ -33,7 +33,7 @@
             <ul class="flex w-full flex-col items-center space-y-2 lg:flex-row lg:justify-center lg:space-y-0">
                 <li class="lg:mr-12"><a
                         class="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
-                        href="#">Why linux?</a></li>
+                        href="#startwithlinux">Why linux?</a></li>
                 <li class="lg:mr-12"><a
                         class="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
                         href="#">about</a></li>
@@ -42,7 +42,7 @@
                         href="#">guides</a></li>
                 <li class="lg:mr-12"><a
                         class="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
-                        href="#whatisswitchtolinux">FAQ</a></li>
+                        href="#FAQ" >FAQ</a></li>
             </ul>
             <hr class="mt-4 w-full lg:hidden" />
             <div class="my-4 flex items-center space-x-6 space-y-2 lg:my-0 lg:ml-auto lg:space-x-8 lg:space-y-0">
@@ -172,39 +172,83 @@
             <img class="h-full w-full object-contain" src="./public/guylearning.jpeg" alt="" />
         </div>
     </section>
-    <section class="max-w-full">
-        <div class="max-w-4/5 mx-auto">
-    
-            <h1 class="text-3xl font-bold mb-6">Frequently Asked Questions</h1>
-    
-            <div class="space-y-4">
-                <!-- Question 1 -->
-                <div class="bg-white p-4 rounded-md shadow-md">
-                    <div class="flex items-center justify-between cursor-pointer faq">
-                        <h2 class="text-lg font-semibold">What is Tailwind CSS?</h2>
-                        <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+    <section class="" id="FAQ">
+        <div class="2xl:container 2xl:mx-auto md:py-12 lg:px-20 md:px-6 py-9 px-4 flex flex-col items-centerlg:w-full">
+           
+                        <h2 class="font-semibold  lg:text-4xl text-3xl lg:leading-9 md:leading-7 leading-9 text-gray-800 flex w-full justify-center">Frequently Asked Questions</h2>
+                       
+                        <div class="flex justify-center md:flex-row flex-col md:space-x-8 md:mt-16 mt-8">
+                            
+                            <div class="md:w-7/12 lg:w-8/12 w-full md:mt-0 sm:mt-14 mt-10">
+                                <!-- question-1 -->
+                                <div>
+                                    <div class="flex justify-between items-center cursor-pointer">
+                                        <h3 class="font-semibold text-xl  leading-5 text-gray-800">Shipping</h3>
+                                        <button aria-label="too" class="text-gray-800  cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" onclick="openAnsSection(1)">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path id="path1" class="" d="M10 4.1665V15.8332" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M4.16602 10H15.8327" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <p id="para1" class="hidden font-normal dark:text-gray-400 text-base leading-6 text-gray-600 mt-4 w-11/12">We are covering every major country worldwide. The shipment leaves from US as it is our headquarter. Some extra information you probably need to add here so that the customer is clear of their wanted expectations.</p>
+                                </div>
+                
+                                <hr class="my-7 bg-gray-200" />
+                
+                                <!-- question-2 -->
+                
+                                <div>
+                                    <div class="flex justify-between items-center cursor-pointer">
+                                        <h3 class="font-semibold text-xl  leading-5 text-gray-800">Returns</h3>
+                                        <button aria-label="too" class="text-gray-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" onclick="openAnsSection(2)">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path id="path2" class="" d="M10 4.1665V15.8332" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M4.16602 10H15.8327" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <p id="para2" class="hidden font-normal dark:text-gray-400 text-base leading-6 text-gray-600 mt-4 w-11/12">We are covering every major country worldwide. The shipment leaves from US as it is our headquarter. Some extra information you probably need to add here so that the customer is clear of their wanted expectations.</p>
+                                </div>
+                
+                                <hr class="my-7 bg-gray-200" />
+                
+                                <!-- question-3 -->
+                
+                                <div>
+                                    <div class="flex justify-between items-center cursor-pointer">
+                                        <h3 class="font-semibold text-xl   leading-5 text-gray-800">Exchange</h3>
+                                        <button aria-label="too" class="text-gray-800 cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" onclick="openAnsSection(3)">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path id="path3" d="M10 4.1665V15.8332" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M4.16602 10H15.8327" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <p id="para3" class="hidden font-normal dark:text-gray-400 text-base leading-6 text-gray-600 mt-4 w-11/12">We are covering every major country worldwide. The shipment leaves from US as it is our headquarter. Some extra information you probably need to add here so that the customer is clear of their wanted expectations.</p>
+                                </div>
+                
+                                <hr class="my-7 bg-gray-200" />
+                
+                                <!-- question-4 -->
+                
+                                <div>
+                                    <div class="flex justify-between items-center cursor-pointer">
+                                        <h3 class="font-semibold text-xl  leading-5 text-gray-800">Tracking</h3>
+                                        <button aria-label="too" class="text-gray-800  cursor-pointer focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-800" onclick="openAnsSection(4)">
+                                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path id="path4" d="M10 4.1665V15.8332" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                                                <path d="M4.16602 10H15.8327" stroke="currentColor" stroke-width="1.25" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </button>
+                                    </div>
+                                    <p id="para4" class="hidden font-normal dark:text-gray-400 text-base leading-6 text-gray-600 mt-4 w-11/12">We are covering every major country worldwide. The shipment leaves from US as it is our headquarter. Some extra information you probably need to add here so that the customer is clear of their wanted expectations.</p>
+                                </div>
+                
+                                <hr class="my-7 bg-gray-200" />
+                            </div>
+                        </div>
                     </div>
-                    <div class="mt-2 hidden">
-                        <p class="text-gray-600">Tailwind CSS is a utility-first CSS framework that provides low-level utility classes to build designs directly in your markup.</p>
-                    </div>
-                </div>
-    
-                <!-- Question 2 -->
-                <div class="bg-white p-4 rounded-md shadow-md">
-                    <div class="flex items-center justify-between cursor-pointer faq">
-                        <h2 class="text-lg font-semibold">How can I install Tailwind CSS?</h2>
-                        <svg class="w-5 h-5 text-gray-500" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                    </div>
-                    <div class="mt-2 hidden">
-                        <p class="text-gray-600">You can install Tailwind CSS using npm or yarn. Follow the installation instructions in the <a href="https://tailwindcss.com/docs/installation" class="text-blue-500" target="_blank">official documentation</a>.</p>
-                    </div>
-                </div>
-    
-                <!-- Add more questions as needed -->
-    
-            </div>
-    
-        </div>
     
     </section>
     
