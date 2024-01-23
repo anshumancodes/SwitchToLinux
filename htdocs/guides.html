@@ -13,12 +13,52 @@
 </head>
 
 <body class="">
+   <header
+   class="text-slate-700 container relative mx-auto flex flex-col overflow-hidden px-4 py-4 lg:flex-row lg:items-center">
+   <a href="#whatisswitchtolinux" class="flex items-center whitespace-nowrap text-2xl font-black">
+       <span class="mr-2 w-8">
+           <img src="./public/linuxpenguin.png" alt="" />
+       </span>
 
+   </a>
+   <input type="checkbox" class="peer hidden" id="navbar-open" />
+   <label class="absolute top-5 right-5 cursor-pointer lg:hidden" for="navbar-open">
+       <svg class="h-7 w-7" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"
+           stroke="currentColor">
+           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M4 6h16M4 12h16M4 18h16">
+           </path>
+       </svg>
+   </label>
+   <nav aria-label="Header Navigation"
+       class="peer-checked:pt-8 peer-checked:max-h-60 flex max-h-0 w-full flex-col items-center overflow-hidden transition-all lg:ml-24 lg:max-h-full lg:flex-row">
+       <ul class="flex w-full flex-col items-center space-y-2 lg:flex-row lg:justify-center lg:space-y-0">
+           <li class="lg:mr-12"><a
+                   class="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
+                   href="#startwithlinux">Why linux?</a></li>
+           <li class="lg:mr-12"><a
+                   class="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
+                   href="#">about</a></li>
+           <li class="lg:mr-12"><a
+                   class="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
+                   href="#">guides</a></li>
+           <li class="lg:mr-12"><a
+                   class="rounded text-gray-700 transition focus:outline-none focus:ring-1 focus:ring-blue-700 focus:ring-offset-2"
+                   href="#FAQ" >FAQ</a></li>
+       </ul>
+       <hr class="mt-4 w-full lg:hidden" />
+       <div class="my-4 flex items-center space-x-6 space-y-2 lg:my-0 lg:ml-auto lg:space-x-8 lg:space-y-0">
+
+           <a href="#startwithlinux" title=""
+               class="whitespace-nowrap rounded-xl bg-blue-700 px-5 py-3 font-medium text-white transition-all duration-200 focus:outline-none focus:ring-2 focus:ring-blue-700 focus:ring-offset-2 hover:bg-blue-600">Start
+               Learning</a>
+       </div>
+   </nav>
+</header>
 
 
    <div class="flex flex-col lg:flex lg:flex-row gap-[20vw]">
       <div>
-         <span class="absolute text-white text-4xl top-5 left-4 cursor-pointer" onclick="openSidebar()">
+         <span class="absolute text-white text-4xl top-5 left-4 cursor-pointer mt-10" onclick="openSidebar()">
             <i class="bi bi-filter-left px-2 bg-gray-900 rounded-md"></i>
          </span>
          <div class="sidebar fixed top-0 bottom-0 lg:left-0 p-2 w-[300px] overflow-y-auto text-center bg-gray-900">
@@ -75,11 +115,18 @@
          </div>
       </div>
 
-      <div class="w-full">
+      <div class="w-full pl-2 lg:pl-0">
          <h1 class="mt-[5vh] text-black font-extrabold text-xl lg:text-3xl">Guides</h1>
          <main>
-            <section class="mt-5">
+            <section class="mt-5 ">
                <h2 class="text-2xl">Introduction to linux</h2>
+               <p class=" mt-2 prose lg:prose-sm w-[90%]">- We all have used windows operating system as kids , or lets say at-least heard about it? right we basically know what a operating system do right :like it let you play your favourite game or a let you draw on ms paint . So on a bit technical level Operating systems bring together hardware and software to make sure its usable i.e; is users can perform all the tasks they desire alright! now Linux is similarly a operating system based on UNIX (yet another operating system lets forgot about it )that originated back in 90s(1990s) and you wont believe but Linux is everywhere! guess what your mobile runs on a Linux based OS!your car's smart system (yeah the one can let you pick calls ,got a nice touch screen and all that ) runs on Linux!!!</p>
+               <p class="mt-2 prose lg:prose-sm w-[90%]"> Now Linux operating system comprises several different pieces:
+
+                  
+
+
+               </p>
             </section>
          </main>
       </div>
